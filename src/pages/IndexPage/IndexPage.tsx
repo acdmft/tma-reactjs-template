@@ -36,6 +36,9 @@ export const IndexPage: FC = () => {
           <Link to="/theme-params">
             <Cell subtitle="Telegram application palette information">Theme Parameters</Cell>
           </Link>
+          <Link to="/user-location">
+            <Cell subtitle="Get user location">Telegram locationManager, user location data</Cell>
+          </Link>
         </Section>
       </List>
     </Page>
